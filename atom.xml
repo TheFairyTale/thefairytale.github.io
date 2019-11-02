@@ -2,13 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://thefairytale.github.io</id>
     <title>TheFairyTale personal site</title>
-    <updated>2019-10-06T03:06:04.780Z</updated>
+    <updated>2019-11-02T16:09:15.429Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://thefairytale.github.io"/>
     <link rel="self" href="https://thefairytale.github.io/atom.xml"/>
     <logo>https://thefairytale.github.io/images/avatar.png</logo>
     <icon>https://thefairytale.github.io/favicon.ico</icon>
     <rights>All rights reserved 2019, TheFairyTale personal site</rights>
+    <entry>
+        <title type="html"><![CDATA[凌晨12点07]]></title>
+        <id>https://thefairytale.github.io/post/ling-chen-12-dian-07</id>
+        <link href="https://thefairytale.github.io/post/ling-chen-12-dian-07">
+        </link>
+        <updated>2019-11-02T16:06:49.000Z</updated>
+    </entry>
     <entry>
         <title type="html"><![CDATA[此时回忆起来的事]]></title>
         <id>https://thefairytale.github.io/post/ci-shi-hui-yi-qi-lai-de-shi</id>
