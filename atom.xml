@@ -2,13 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://thefairytale.github.io</id>
     <title>TheFairyTale personal site</title>
-    <updated>2020-01-09T09:21:07.240Z</updated>
+    <updated>2020-01-24T16:49:59.701Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://thefairytale.github.io"/>
     <link rel="self" href="https://thefairytale.github.io/atom.xml"/>
     <logo>https://thefairytale.github.io/images/avatar.png</logo>
     <icon>https://thefairytale.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, TheFairyTale personal site</rights>
+    <entry>
+        <title type="html"><![CDATA[2020年新年有感]]></title>
+        <id>https://thefairytale.github.io/post/2020-nian-xin-nian-you-gan</id>
+        <link href="https://thefairytale.github.io/post/2020-nian-xin-nian-you-gan">
+        </link>
+        <updated>2020-01-24T16:48:41.000Z</updated>
+    </entry>
     <entry>
         <title type="html"><![CDATA[配置Gradle 国内镜像源: 全局配置&单独配置]]></title>
         <id>https://thefairytale.github.io/post/pei-zhi-gradle-quan-ju-cang-ku-yuan-guo-nei-jing-xiang</id>
