@@ -3,7 +3,7 @@
         <head>
         <meta name="viewport" content="width=device-width,minimum-scale=1,maximum-scale=1,initial-scale=1,user-scalable=no" />
         <meta charset="utf-8">
-        <title>此时回忆起来的事 | TheFairyTale personal site</title>
+        <title>[Docker创建容器时] 致一个因参数值放错位置而浪费近半个多小时时间的自己 | TheFairyTale personal site</title>
         <link rel="stylesheet" href="https://thefairytale.github.io/styles/main.css">
         <link rel="stylesheet" href="https://at.alicdn.com/t/font_1306644_jwtuc2zzbrd.css">
         <link href="https://cdn.bootcss.com/animate.css/3.7.2/animate.min.css" rel="stylesheet">
@@ -56,67 +56,39 @@
                 <div class="mdui-row">
                         <div class="mdui-col-md-8 mdui-col-offset-md-2 ">
                                 <article class="mdui-p-a-2 post animated fadeIn" style="animation-delay: 0.8s;animation-duration: 2s">
-                                    <div class="post-title  mdui-m-b-1">此时回忆起来的事</div>
-                                    <div class="mdui-typo-body-2 mdui-m-b-2" datetime="2019-09-20 21:44:50">09-20-2019 / 3 min read</div>
-                                    <div class="mdui-m-b-2 mdui-typo post-neirong"><p>上初中吧刚刚。</p>
-<p>有一天早上，你说你要去发传单，奶奶不放心，跟你一起去，到地方了，大早上六点多的，人事的说你太小不要，奶奶说那报我名，总可以吧。于是领到了一大袋子好几十公斤的纸质宣传单。很重。<br>
-结果最后你说你不发了，奶奶没办法，提着一大袋子，放在电动车上，推着回去。</p>
-<p>早上七点，非机动车道上全是车流，奶奶一声不吭地都整理好放在电动车上推着车回去，一路上还一边走一边问你肚子饿不饿，还给你买了东西。后来奶奶回了家才吃了饭。八点多奶奶回去整了整传单。你，好像还在一旁玩儿电脑。</p>
-<p>差不多八点半，爷爷下楼回来，看到只有你在那玩，略严厉的问道：“奶奶勒？”（可能. 当时只是你先回来了，奶奶还在后边推着车。而你已经回来开始玩了。）</p>
-<p>到家后你作业也没写，就在那玩，奶奶在一旁将那些宣传单捆起来。爷爷在门口看到，问：“你都不帮帮奶奶？”。虽然当天可能是星期六吧你没有立即去写作业。</p>
-<p>另外，你还记得以前奶奶到学校劝你不要和赵永辉打架吗？</p>
-<p>当时刚上初一，大概2013年吧。<br>
-现在在上大专，2019年。<br>
-六年。<br>
-有改变了吗？<br>
-就像那天朋友说的那样，人生八十年四千二百多格子、四千多周，每过一周划去一个格子，已经划去的那些，已经有了一千周了哟。</p>
-<blockquote>
-<p>紧张？ 心跳快？ 不敢动？<br>
-如果你的面前是一块墓碑，再给你一次机会，你会做的。</p>
-</blockquote>
-<blockquote>
-<p>人生很短暂的<br>
-再想想你的一周过的多快吧<br>
-周一上课<br>
-周二上课<br>
-周三思考什么时候双休<br>
-周四想着快双休了<br>
-周五开始欢喜晚上嗨翻天<br>
-周六睡一天懒觉<br>
-周日开始指责自己一周干了什么<br>
-为什么假期这么快结束了<br>
-明天就是周一了</p>
-</blockquote>
-<blockquote>
-<p>你这个时候去人家床上<br>
-把人家架起来<br>
-给一个拥抱<br>
-说一句中秋节快乐<br>
-也不是什么超级难的事情吧<br>
-<strong>干一些对得起未来的自己的事情吧</strong><br>
-<strong>无论你父母对你是好是坏</strong><br>
-<strong>他们把你生下来还养你就足以你感谢他们一辈子了</strong></p>
-</blockquote>
-<p>你现在也不是小孩子了。<br>
-那么你，什么时候能懂得这个道理呢？<br>
-什么时候，不会再有任何遗憾了呢？<br>
-什么时候，可以真正懂得所有东西、真正承担起责任呢</p>
-<p><em>审问一下自己的人生吧<br>
-有没有干什么后悔的事情<br>
-遗憾的事情<br>
-没做的事情</em><br>
-———<br>
-这也就是现实。<br>
-———</p>
+                                    <div class="post-title  mdui-m-b-1">[Docker创建容器时] 致一个因参数值放错位置而浪费近半个多小时时间的自己</div>
+                                    <div class="mdui-typo-body-2 mdui-m-b-2" datetime="2020-03-09 06:43:36">03-09-2020 / 2 min read</div>
+                                    <div class="mdui-m-b-2 mdui-typo post-neirong"><p>（流水账警告💣）早上，打算把学校毕设的进度往前推一点，由于几天前作死调了下docker 的存储空间，虽然后来取消了操作但还是把所有镜像和容器存储统统删掉了，上面还有个数据库也被一并删了，我也没做过备份（可见备份是多么重要啊..），难受。<br>
+没办法今早就开始重建数据库。创建时用portainer 创了好几次都说参数错误，最后在命令行下创建成功了，但是端口没有暴露到主机上，删除容器重建，加了参数<code>-P</code> 来随机指定端口并绑定到主机，<br>
+<code>docker run --name mariadb -e MYSQL_ROOT_PASSWORD=password -d mariadb:latest -P</code><br>
+创建成功后使用<code>docker container list -a</code> 查看：</p>
+<pre><code>CONTAINER ID        IMAGE                              COMMAND                  CREATED             STATUS                     PORTS                                            NAMES
+35a848541d62        mariadb:latest                     &quot;docker-entrypoint.s…&quot;   4 seconds ago       Exited (1) 2 seconds ago                                                    mariadb
+</code></pre>
+<p>创建完成后又退出了...<br>
+使用portainer 查看容器日志，提示<code>unknown -P</code> 然后就退出了<br>
+纳闷，删掉后重新创建，仍旧提示未知参数。难道mariadb不支持<code>-P</code> 参数来绑定吗...<br>
+再次创建又退出后才突然恍然大悟，放在最后一个参数位置的地方是启动时的命令，而<code>-P</code> 绑定随机端口的参数不能放在后面。。<br>
+于是重新使用<code>docker run --name mariadb -P -e MYSQL_ROOT_PASSWORD=password -d mariadb:latest</code>创建</p>
+<pre><code>60fe5c294db0        mariadb:latest                     &quot;docker-entrypoint.s…&quot;   3 seconds ago       Up 2 seconds              0.0.0.0:32768-&gt;3306/tcp                          mariadb
+</code></pre>
+<p>主机32768映射到了内部3306端口上...<br>
+发现这样不行，连接时端口不指定就会很麻烦<br>
+又重新创建<br>
+<code>docker run --name mariadb -p 3306:3306 -e MYSQL_ROOT_PASSWORD=password -d mariadb:latest</code><br>
+才终于算是成功了</p>
+<pre><code>0112816d9717        mariadb:latest                     &quot;docker-entrypoint.s…&quot;   6 seconds ago       Up 5 seconds              0.0.0.0:3306-&gt;3306/tcp                           mariadb
+</code></pre>
+<p>弄好后回过神都已经半个多小时了, 就因为一点点小问题...</p>
 </div>
                                     <div class="mdui-divider mdui-m-b-2"></div>
                                     <div class="mdui-row-xs-2 post-fenye">
                                        
-                                        <div class="mdui-col"> <div class="mdui-text-left"><a href="https://thefairytale.github.io/post/ling-chen-12-dian-07">凌晨12点07</a></div></div>
+                                        <div class="mdui-col"> </div>
                                         
 
                                         
-                                        <div class="mdui-col"><div class="mdui-text-right "><a href="https://thefairytale.github.io/post/ce-shi-wen-zhang">测试文章</a></div> </div>
+                                        <div class="mdui-col"><div class="mdui-text-right "><a href="https://thefairytale.github.io/post/you-shi-25-ri-wen-shi-hua-duo">又是25日，”温室花朵“</a></div> </div>
                                        
                                       </div>
                                    
