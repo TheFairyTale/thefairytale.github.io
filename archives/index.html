@@ -67,7 +67,15 @@
                                           <div class="archives mdui-p-a-3">
                                             <div class="mdui-typo-body-2 mdui-m-b-1">03-16-2020</div>
                                             <div class="mdui-m-b-2 archives-title"><a href="https://thefairytale.github.io/post/docker-xue-xi-xiao-bi-ji">Docker 学习小笔记</a></div>
-                                            <div class="mdui-typo-subheading mdui-m-b-1 mdui-text-truncate"></div>
+                                            <div class="mdui-typo-subheading mdui-m-b-1 mdui-text-truncate"><ol>
+<li>将宿主机上指定的文件夹暴露给指定容器（只能在容器被新建时使用，且要在<code>docker desktop</code> 设置中开启要共享的磁盘）：<br>
+<img src="https://thefairytale.github.io/post-images/1584330437967.png" alt=""><br>
+命令：<br>
+<code>docker run -it -v 宿主机上指定文件夹:容器内部位置 映像名</code><br>
+示例，将本地<code>C:/Users/98692/Documents</code> 文件夹共享至容器内<code>/media</code> 内:<br>
+<code>docker run -it -v C:/Users/98692/Documents:/media tensorflow/tensorflow:latest-py3 bash</code></li>
+</ol>
+</div>
                                           </div>
                                 </article>
                                 

@@ -59,12 +59,15 @@
                                     <div class="post-title  mdui-m-b-1">Docker 学习小笔记</div>
                                     <div class="mdui-typo-body-2 mdui-m-b-2" datetime="2020-03-16 11:43:06">03-16-2020 / 1 min read</div>
                                     <div class="mdui-m-b-2 mdui-typo post-neirong"><ol>
-<li>将宿主机上指定的文件夹暴露给指定容器（只能在容器被新建时使用，且要在docker desktop 设置中开启要共享的磁盘）：<br>
+<li>将宿主机上指定的文件夹暴露给指定容器（只能在容器被新建时使用，且要在<code>docker desktop</code> 设置中开启要共享的磁盘）：<br>
 <img src="https://thefairytale.github.io/post-images/1584330437967.png" alt=""><br>
+命令：<br>
 <code>docker run -it -v 宿主机上指定文件夹:容器内部位置 映像名</code><br>
-示例:<br>
+示例，将本地<code>C:/Users/98692/Documents</code> 文件夹共享至容器内<code>/media</code> 内:<br>
 <code>docker run -it -v C:/Users/98692/Documents:/media tensorflow/tensorflow:latest-py3 bash</code></li>
 </ol>
+<!-- more -->
+<p>参考：<a href="https://blog.csdn.net/zhydream77/article/details/81909706">docker文件夹映射的两种方式---主机卷映射和共享文件夹映射</a></p>
 </div>
                                     <div class="mdui-divider mdui-m-b-2"></div>
                                     <div class="mdui-row-xs-2 post-fenye">
