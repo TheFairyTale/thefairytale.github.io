@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://thefairytale.github.io</id>
     <title>TheFairyTale personal site</title>
-    <updated>2020-03-26T08:18:08.584Z</updated>
+    <updated>2020-03-27T15:17:20.956Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://thefairytale.github.io"/>
     <link rel="self" href="https://thefairytale.github.io/atom.xml"/>
@@ -15,31 +15,6 @@
         <link href="https://thefairytale.github.io/post/live2d-cheng-gong-jia-zai-mo-xing-de-bi-yao-can-shu-shi">
         </link>
         <updated>2020-03-18T17:57:35.000Z</updated>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Docker 学习小笔记]]></title>
-        <id>https://thefairytale.github.io/post/docker-xue-xi-xiao-bi-ji</id>
-        <link href="https://thefairytale.github.io/post/docker-xue-xi-xiao-bi-ji">
-        </link>
-        <updated>2020-03-16T03:43:06.000Z</updated>
-        <summary type="html"><![CDATA[<ol>
-<li>将宿主机上指定的文件夹暴露给指定容器（只能在容器被新建时使用，且要在<code>docker desktop</code> 设置中开启要共享的磁盘）：<br>
-<img src="https://thefairytale.github.io/post-images/1584330437967.png" alt=""><br>
-命令：<br>
-<code>docker run -it -v 宿主机上指定文件夹:容器内部位置 映像名</code><br>
-示例，将本地<code>C:/Users/98692/Documents</code> 文件夹共享至容器内<code>/media</code> 内:<br>
-<code>docker run -it -v C:/Users/98692/Documents:/media tensorflow/tensorflow:latest-py3 bash</code></li>
-</ol>
-]]></summary>
-        <content type="html"><![CDATA[<ol>
-<li>将宿主机上指定的文件夹暴露给指定容器（只能在容器被新建时使用，且要在<code>docker desktop</code> 设置中开启要共享的磁盘）：<br>
-<img src="https://thefairytale.github.io/post-images/1584330437967.png" alt=""><br>
-命令：<br>
-<code>docker run -it -v 宿主机上指定文件夹:容器内部位置 映像名</code><br>
-示例，将本地<code>C:/Users/98692/Documents</code> 文件夹共享至容器内<code>/media</code> 内:<br>
-<code>docker run -it -v C:/Users/98692/Documents:/media tensorflow/tensorflow:latest-py3 bash</code></li>
-</ol>
-]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[[Docker创建容器时] 致一个因参数值放错位置而浪费近半个多小时时间的自己]]></title>
