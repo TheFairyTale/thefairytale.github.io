@@ -2,13 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://thefairytale.github.io</id>
     <title>TheFairyTale personal site</title>
-    <updated>2020-04-04T18:55:07.809Z</updated>
+    <updated>2020-04-30T17:34:05.601Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://thefairytale.github.io"/>
     <link rel="self" href="https://thefairytale.github.io/atom.xml"/>
     <logo>https://thefairytale.github.io/images/avatar.png</logo>
     <icon>https://thefairytale.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, TheFairyTale personal site</rights>
+    <entry>
+        <title type="html"><![CDATA[记录的意义。]]></title>
+        <id>https://thefairytale.github.io/post/ji-lu-de-yi-yi</id>
+        <link href="https://thefairytale.github.io/post/ji-lu-de-yi-yi">
+        </link>
+        <updated>2020-04-30T17:29:37.000Z</updated>
+    </entry>
     <entry>
         <title type="html"><![CDATA[深夜3点27分]]></title>
         <id>https://thefairytale.github.io/post/shen-ye-3-dian-27-fen</id>
