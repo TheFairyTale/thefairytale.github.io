@@ -2,13 +2,27 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://thefairytale.github.io</id>
     <title>TheFairyTale personal site</title>
-    <updated>2020-05-02T19:07:18.702Z</updated>
+    <updated>2020-05-24T14:47:24.643Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://thefairytale.github.io"/>
     <link rel="self" href="https://thefairytale.github.io/atom.xml"/>
     <logo>https://thefairytale.github.io/images/avatar.png</logo>
     <icon>https://thefairytale.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, TheFairyTale personal site</rights>
+    <entry>
+        <title type="html"><![CDATA[在使用MDUI前端框架编写个人中心界面时对文章列表部分出现的文字内容换行问题所尝试有效的方法]]></title>
+        <id>https://thefairytale.github.io/post/zai-shi-yong-mdui-qian-duan-kuang-jia-bian-xie-ge-ren-zhong-xin-jie-mian-shi-dui-wen-zhang-lie-biao-bu-fen-chu-xian-de-wen-zi-nei-rong-huan-xing-wen-ti-suo-chang-shi-you-xiao-de-fang-fa</id>
+        <link href="https://thefairytale.github.io/post/zai-shi-yong-mdui-qian-duan-kuang-jia-bian-xie-ge-ren-zhong-xin-jie-mian-shi-dui-wen-zhang-lie-biao-bu-fen-chu-xian-de-wen-zi-nei-rong-huan-xing-wen-ti-suo-chang-shi-you-xiao-de-fang-fa">
+        </link>
+        <updated>2020-05-24T14:31:07.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[如果放弃思考的话，那么一辈子就只能当劳动者，而不理解事物]]></title>
+        <id>https://thefairytale.github.io/post/ru-guo-fang-qi-si-kao-de-hua-na-me-yi-bei-zi-jiu-zhi-neng-dang-lao-dong-zhe-er-bu-li-jie-shi-wu</id>
+        <link href="https://thefairytale.github.io/post/ru-guo-fang-qi-si-kao-de-hua-na-me-yi-bei-zi-jiu-zhi-neng-dang-lao-dong-zhe-er-bu-li-jie-shi-wu">
+        </link>
+        <updated>2020-05-05T17:08:14.000Z</updated>
+    </entry>
     <entry>
         <title type="html"><![CDATA[光阴荏苒，日月如梭]]></title>
         <id>https://thefairytale.github.io/post/guang-yin-ren-ran-ri-yue-ru-suo</id>
@@ -110,18 +124,5 @@
         <link href="https://thefairytale.github.io/post/ce-shi-wen-zhang">
         </link>
         <updated>2019-06-19T10:03:40.000Z</updated>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Hello Gridea]]></title>
-        <id>https://thefairytale.github.io/post/hello-gridea</id>
-        <link href="https://thefairytale.github.io/post/hello-gridea">
-        </link>
-        <updated>2018-12-11T16:00:00.000Z</updated>
-        <summary type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
-✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>
-]]></summary>
-        <content type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
-✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>
-]]></content>
     </entry>
 </feed>
