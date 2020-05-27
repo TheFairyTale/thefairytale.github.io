@@ -67,6 +67,13 @@
                                     <div class="mdui-typo-body-2 mdui-m-b-2" datetime="2020-05-27 23:42:13">05-27-2020 / 1 min read</div>
                                     <div class="mdui-m-b-2 mdui-typo post-neirong"><p>上传图片等资源时注意表单的enctype 值设为<code>multipart/form-data</code> ，不然后台很可能收不到和文本内容一起提交上来的图片等数据资源。<br>
 参考: <a href="https://developer.mozilla.org/zh-CN/docs/Web/HTTP/Basics_of_HTTP/MIME_types">MIME 类型|MDN</a></p>
+<pre><code>When the value of the method attribute is post, enctype is the MIME type of content that is used to submit the form to the server. Possible values are:
+
+application/x-www-form-urlencoded: The default value if the attribute is not specified.
+multipart/form-data: The value used for an &lt;input&gt; element with the type attribute set to &quot;file&quot;.
+text/plain: (HTML5)
+This value can be overridden by a formenctype(https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button#attr-formenctype) attribute on a &lt;button&gt; or &lt;input&gt; element
+</code></pre>
 </div>
                                     <div class="mdui-divider mdui-m-b-2"></div>
                                     <div class="mdui-row-xs-2 post-fenye">
