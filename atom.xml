@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://thefairytale.github.io</id>
     <title>TheFairyTaleのスペース</title>
-    <updated>2021-08-27T13:39:55.240Z</updated>
+    <updated>2021-12-16T11:56:31.242Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://thefairytale.github.io"/>
     <link rel="self" href="https://thefairytale.github.io/atom.xml"/>
@@ -10,6 +10,17 @@
     <logo>https://thefairytale.github.io/images/avatar.png</logo>
     <icon>https://thefairytale.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, TheFairyTaleのスペース</rights>
+    <entry>
+        <title type="html"><![CDATA[[博客迁移]最新文章请在https://dreamdropsakura.asia/ 查收！]]></title>
+        <id>https://thefairytale.github.io/post/bo-ke-qian-yi-zui-xin-wen-zhang-qing-zai-httpsdreamdropsakuraasia-cha-shou/</id>
+        <link href="https://thefairytale.github.io/post/bo-ke-qian-yi-zui-xin-wen-zhang-qing-zai-httpsdreamdropsakuraasia-cha-shou/">
+        </link>
+        <updated>2021-12-16T11:49:54.000Z</updated>
+        <summary type="html"><![CDATA[<p>不再使用Gridea 了，它并不是太方便，不能随时随地写（就是不能手机上写），再加上国内经常连不上github.io 故搬迁这里的文章到了新地址</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>不再使用Gridea 了，它并不是太方便，不能随时随地写（就是不能手机上写），再加上国内经常连不上github.io 故搬迁这里的文章到了新地址</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[[转载]cannot be referenced from a static context 静态方法中不能使用非静态的字段]]></title>
         <id>https://thefairytale.github.io/post/zhuan-zai-cannot-be-referenced-from-a-static-context-jing-tai-fang-fa-zhong-bu-neng-shi-yong-fei-jing-tai-de-zi-duan/</id>
@@ -37,34 +48,6 @@
         <link href="https://thefairytale.github.io/post/zai-shi-yong-mdui-qian-duan-kuang-jia-bian-xie-ge-ren-zhong-xin-jie-mian-shi-dui-wen-zhang-lie-biao-bu-fen-chu-xian-de-wen-zi-nei-rong-huan-xing-wen-ti-suo-chang-shi-you-xiao-de-fang-fa/">
         </link>
         <updated>2020-05-24T14:31:07.000Z</updated>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[如果放弃思考的话，那么一辈子就只能当劳动者，而不理解事物]]></title>
-        <id>https://thefairytale.github.io/post/ru-guo-fang-qi-si-kao-de-hua-na-me-yi-bei-zi-jiu-zhi-neng-dang-lao-dong-zhe-er-bu-li-jie-shi-wu/</id>
-        <link href="https://thefairytale.github.io/post/ru-guo-fang-qi-si-kao-de-hua-na-me-yi-bei-zi-jiu-zhi-neng-dang-lao-dong-zhe-er-bu-li-jie-shi-wu/">
-        </link>
-        <updated>2020-05-05T17:08:14.000Z</updated>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[光阴荏苒，日月如梭]]></title>
-        <id>https://thefairytale.github.io/post/guang-yin-ren-ran-ri-yue-ru-suo/</id>
-        <link href="https://thefairytale.github.io/post/guang-yin-ren-ran-ri-yue-ru-suo/">
-        </link>
-        <updated>2020-05-02T19:04:12.000Z</updated>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[记录的意义。]]></title>
-        <id>https://thefairytale.github.io/post/ji-lu-de-yi-yi/</id>
-        <link href="https://thefairytale.github.io/post/ji-lu-de-yi-yi/">
-        </link>
-        <updated>2020-04-30T17:29:37.000Z</updated>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[深夜3点27分]]></title>
-        <id>https://thefairytale.github.io/post/shen-ye-3-dian-27-fen/</id>
-        <link href="https://thefairytale.github.io/post/shen-ye-3-dian-27-fen/">
-        </link>
-        <updated>2020-04-04T18:38:00.000Z</updated>
     </entry>
     <entry>
         <title type="html"><![CDATA[Live2D成功加载模型的必要参数是]]></title>
@@ -104,20 +87,6 @@
         <link href="https://thefairytale.github.io/post/docker-chuang-jian-rong-qi-shi-yi-ge-yin-can-shu-zhi-fang-cuo-wei-zhi-er-lang-fei-jin-ban-ge-duo-xiao-shi-shi-jian-de-zi-ji/">
         </link>
         <updated>2020-03-08T22:43:36.000Z</updated>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[又是25日，”温室花朵“]]></title>
-        <id>https://thefairytale.github.io/post/you-shi-25-ri-wen-shi-hua-duo/</id>
-        <link href="https://thefairytale.github.io/post/you-shi-25-ri-wen-shi-hua-duo/">
-        </link>
-        <updated>2020-02-25T15:57:37.000Z</updated>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[2020年新年有感]]></title>
-        <id>https://thefairytale.github.io/post/2020-nian-xin-nian-you-gan/</id>
-        <link href="https://thefairytale.github.io/post/2020-nian-xin-nian-you-gan/">
-        </link>
-        <updated>2020-01-24T16:48:41.000Z</updated>
     </entry>
     <entry>
         <title type="html"><![CDATA[配置Gradle 国内镜像源: 全局配置&单独配置]]></title>
